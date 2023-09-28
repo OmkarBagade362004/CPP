@@ -1,16 +1,7 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <iostream>
-
 using namespace std;
-int
-reverse (int n)
+
+int reverse (int n)
 {
   int ans = 0;
   while (n > 0)
@@ -21,8 +12,8 @@ reverse (int n)
     }
   return ans;
 }
-
-int aB (int a, int b){
+//function to add binary  aB here is the name given to addBinary as a functionName 
+int aB (int a, int b){ 
     int ans = 0;
     int prevCarry = 0;
     
